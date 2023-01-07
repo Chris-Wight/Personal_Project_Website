@@ -1,5 +1,5 @@
 # Personal Website - Codecademy Project
-> Personal website for display projects from Codecademy.
+> Personal website for displaying projects created from the Codecademy  fullstack course.
 <!-- -->
 > HTML/CSS, JavaScript syntax
 
