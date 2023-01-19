@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This website is a portfolio project provided by Codecademy and created by Chris Wight.">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="./index.min.css">
+    <link rel="preload" href="./indexCssAnimation.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="./indexCssAnimation.css"></noscript>
+</head>
+<body>
+    <div class="content-wrapper">
+        <header role="banner">
+            <div class="nightsky-background"></div>
+            <div class="balloon-left"></div>
+            <div class="balloon-right"></div>
+            <div class="cave-entrance-background"></div>
+            <div class="title-nav-container">
+                <nav>
+                    <ul>
+                        <li><a href="#about-me">About Me</a></li>
+                        <li><a href="#portfolio-projects-h2">Projects</a></li>
+                        <li><a href="#contacts">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <section class="banner-info">
+                <div class="person-info">
+                    <h1 role="heading" tabindex="0">Chris Wight</h1>
+                    <div tabindex="0" role="img" aria-label="Developer & Sound Engineer">
+                        <h2 aria-hidden="true"><span class="auto-type"></span></h2>
+                    </div>
+                </div>
+            </section>
+        </header>
+        <main>
+            <section class="aboutMe-container" aria-label="Creator Information" tabindex="0">
+                <h2 tabindex="0" id="about-me" class="about-me-h2">About Me</h2>
+                <div tabindex="0">
+                    <p>Hi, I'm Chris. I am a developer & sound engineer who is currently studying the fullstack course on Codecademy.</p>
+                    <br>
+                    <p>I hope you enjoy my first portfolio website, which was made as part of the course.</p>
+                </div>
+            </section>
+            <section class="background-earth">
+                <div id="particles-js2" class="particles-earth-container"></div>
+                <section class="programs-roots">
+                    <div class="program-wrapper" tabindex="0" aria-label="Programs and Software i can use.">
+                        <div id="roots-wrapper">
+                            <div tabindex="0" role="img" aria-label="Html" id="program-1" class="program-shape program-1 programs"><div class="backdrop-blur"></div></div>
+                            <div tabindex="0" role="img" aria-label="CSS" id="program-2" class="program-shape program-2 programs"><div class="backdrop-blur"></div></div>
+                            <div tabindex="0" role="img" aria-label="JavaScript" id="program-3" class="program-shape program-3 programs"><div class="backdrop-blur"></div></div>
+                            <div tabindex="0" role="img" aria-label="Python" id="program-4" class="program-shape program-4 programs"><div class="backdrop-blur"></div></div>
+                            <div tabindex="0" role="img" aria-label="Git" id="program-5" class="program-shape program-5 programs"><div class="backdrop-blur"></div></div>
+                            <div tabindex="0" role="img" aria-label="GitHub" id="program-6" class="program-shape program-6 programs"><div class="backdrop-blur"></div></div>
+                        </div>
+                        <div class="program-button-container">
+                            <button disabled role="button" id="button1-left" class="programs-next-button buttonLeft" aria-label="Rotate Roots Left" aria-controls="roots-wrapper"></button>
+                            <h3>Rotate Roots</h3>
+                            <button role="button" id="button2-right" class="programs-next-button buttonRight" aria-label="Rotate Roots Right" aria-controls="roots-wrapper"></button>
+                        </div>
+                    </div>
+                </section>
+            </section>
+            <section class="project-banner-text">
+                <h2 tabindex="0" role="heading" id="portfolio-projects-h2">Portfolio Projects</h2>
+            </section>
+            <section class="projects-container">
+                <div class="iframe-container">
+                    <button id="projects-return-button">Return</button>
+                    <iframe id="iframe" src="https://htmlpreview.github.io/?https://github.com/Chris-Wight/Project_Company_Homepage/blob/main/companyHomePage.html" loading="lazy" frameborder="0"></iframe>
+                </div>
+                <div id="particles-js" class="particles-container"></div>
+                <div tabindex="0" aria-label="Finished Projects" class="projects-tree">
+                    <div class="projects-container-shapes">
+                        <div tabindex="0" role="img" aria-label="Browns Bakery" id="project1" class="projects project1"></div>
+                        <div tabindex="0" role="img" aria-label="Business Card" id="project2" class="projects project2"></div>
+                        <div tabindex="0" role="img" aria-label="Mixed Messages Quote Generator" id="project3" class="projects project3"></div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div id="contacts" class="contact-me-container">
+                <h2 tabindex="0" role="heading">Contacts</h2>
+            </div>
+            <p tabindex="0" class="contact-Para">Feel free to contact me</p>
+            <div class="contacts-links-container">
+               <a href="mailto:chris.swight@gmail.com"><img class="contact-icon-hover-1" src="./Images/ContactIcons/Emails.svg" alt="email"></a>
+               <a href="#"><img class="contact-icon-hover-2" src="./Images/ContactIcons/Links.svg" alt="linked in"></a>
+               <a href="https://github.com/Chris-Wight?tab=repositories"><img class="contact-icon-hover-3" src="./Images/ContactIcons/githubs.svg" alt="github"></a>
+            </div>
+            <p class="copyright">&#169 2022 Chris Wight</p>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.js"></script>
+    <script src="./assets/particlesjs-config.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
