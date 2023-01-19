@@ -7,7 +7,7 @@
 The goal of this project is to create a website for displaying projects made through the Codecademy course.
 
 
-##  Project Includes
+## Project Includes
 * HTML/CSS FrontEnd Ui
 * JavaScript Syntax
 
