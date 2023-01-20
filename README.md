@@ -16,7 +16,8 @@ Ongoing.
 
 ## Setup
 To run this project, save files locally & run within a browser of choice.
-HTML Preview - 
+<!-- -->
+HTML Preview - https://chris-wight.github.io/PracticePortfolio/
 
 ## Project Origin
 Codecademy portfolio project 2.
