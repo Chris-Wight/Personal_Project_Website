@@ -101,11 +101,11 @@ button2el.addEventListener("click", alternateLeaves)
 
 function openProjectView(el){
     if(el === project1){
-        iframe.src = "https://htmlpreview.github.io/?https://github.com/Chris-Wight/Project_Company_Homepage/blob/main/companyHomePage.html"
+        iframe.src = "https://chris-wight.github.io/Project_Company_Homepage/"
     }else if(el === project2){
-        iframe.src = "https://htmlpreview.github.io/?https://github.com/Chris-Wight/Business_Card/blob/main/index.html"
+        iframe.src = "https://chris-wight.github.io/Business_Card/"
     }else{
-        iframe.src = "http://htmlpreview.github.io/?https://github.com/Chris-Wight/Mixed_Messages/blob/main/index.html"
+        iframe.src = "https://chris-wight.github.io/Mixed_Messages/"
     }
     iframeView.style.display = 'flex'
 }
